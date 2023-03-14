@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.botaoModalF{
+
+  border: none;
+  background-color: #1d5e6b;
+  height: 70px;
+  width: 120px;
+  border-radius: 30px;
+  color: white;
+  position: fixed;
+  font-size: 18pt;
+  margin-left: -4%;
+
+}
+
+.botaoModalF:hover{
+  background-color: #20889c;
+
+}
+
+.botaoModal{
+  border: none;
+  background-color: #48D1CC;
+  height: 70px;
+  width: 120px;
+  border-radius: 30px;
+  color: white;
+  position: fixed;
+  margin-top: -20%;
+  font-size: 18pt;
+  margin-left: 4%;
+}
+
+.botaoModal:hover{
+  background-color: #49abab;
+  size: 100px;
+}
+
+.modal-content{
+
+  margin-left: 575px;
+  margin: 50px;
+  
+}
+
+
+h1{
+  color: white;
+  text-shadow: 2px 2px 2px rgb(75, 145, 163) ;
+  padding: 3%;
+}
+
+.corpo{
+  background-color: rgb(171, 234, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.imagens{
+  margin: 2px;
+  box-shadow: 2px 2px 2px rgb(75, 145, 163);
+  border-radius: 30px;
+  position: sticky;
+  width: 800px;
+  height: 600px;
+}
+
